@@ -1,0 +1,16 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "send",
+  "scripts": {
+    "start": "node send.js"
+  },
+  "author": "Eduard Hayrapetyan",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  }
+}
